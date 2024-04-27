@@ -55,7 +55,7 @@ async function currancyConvert(e) {
       const temp1=data[countryCodeLeft.toLowerCase()];
       const temp=temp1[countryCodeRight.toLowerCase()]
 
-      const finalAmount=amount + " " + countryCodeLeft +" = " + amount * temp + " " + countryCodeLeft
+      const finalAmount=amount + " " + countryCodeLeft +" = " + amount * temp + " " + countryCodeRight
 
   
 
